@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@+id/navigation_sale">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.grocerymanagement.views.ui.home.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home"/>
+    <fragment
+        android:id="@+id/navigation_sale"
+        android:name="com.example.grocerymanagement.views.ui.home.sale.SaleFragment"
+        android:label="fragment_sale"
+        tools:layout="@layout/fragment_sale" />
+    <fragment
+        android:id="@+id/navigation_staff"
+        android:name="com.example.grocerymanagement.views.ui.home.staff.StaffFragment"
+        android:label="fragment_staff"
+        tools:layout="@layout/fragment_staff" />
+    <fragment
+        android:id="@+id/navigation_user"
+        android:name="com.example.grocerymanagement.views.ui.home.user.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="com.example.grocerymanagement.views.ui.home.category.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/productAddFragment"
+        android:name="com.example.grocerymanagement.views.ui.home.home.ProductAddFragment"
+        android:label="ProductAddFragment" />
+    <fragment
+        android:id="@+id/saleAddFragment"
+        android:name="com.example.grocerymanagement.views.ui.home.sale.SaleAddFragment"
+        android:label="SaleAddFragment" />
+    <fragment
+        android:id="@+id/categoryAddFragment"
+        android:name="com.example.grocerymanagement.views.ui.home.category.CategoryAddFragment"
+        android:label="CategoryAddFragment" />
+    <fragment
+        android:id="@+id/clientAddFragment"
+        android:name="com.example.grocerymanagement.views.ui.home.user.ClientAddFragment"
+        android:label="ClientAddFragment" />
+    <fragment
+        android:id="@+id/staffAddFragment"
+        android:name="com.example.grocerymanagement.views.ui.home.staff.StaffAddFragment"
+        android:label="StaffAddFragment" />
+    <fragment
+        android:id="@+id/navigation_order"
+        android:name="com.example.grocerymanagement.views.ui.home.order.OrderFragment"
+        android:label="OrderFragment" />
+</navigation>

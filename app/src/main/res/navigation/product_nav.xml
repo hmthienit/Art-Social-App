@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/product_nav"
+    app:startDestination="@id/productDetailFragment3">
+
+
+    <fragment
+        android:id="@+id/productDetailFragment3"
+        android:name="com.example.grocerymanagement.views.ui.home.home.ProductDetailFragment"
+        android:label="ProductDetailFragment" >
+        <action
+            android:id="@+id/action_productDetailFragment3_to_productEditFragment"
+            app:destination="@id/productEditFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productEditFragment"
+        android:name="com.example.grocerymanagement.views.ui.home.home.ProductEditFragment"
+        android:label="ProductEditFragment" />
+</navigation>

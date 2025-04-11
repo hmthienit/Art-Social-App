@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">SocialPost</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_full_name">Full name</string>
+    <string name="text_email">Email</string>
+    <string name="text_phone_number">Phone number</string>
+    <string name="text_password">Password</string>
+    <string name="text_term_and_condition">Agree the terms and conditions</string>
+    <string name="text_register">Sign In</string>
+    <string name="text_aldready_account">You have the account, login now</string>
+    <string name="text_login">Login</string>
+    <string name="text_show_password">Show password</string>
+    <string name="text_go_to_register">You dont has the account, sign up now</string>
+    <string name="text_forgot_password">Forgot password</string>
+    <string name="title_activity_grocery">GroceryActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="text_products">Products</string>
+    <string name="text_employees">Employees</string>
+    <string name="text_sales">Sales</string>
+    <string name="text_users">Users</string>
+    <string name="text_category">Category</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="text_product_name">Product name</string>
+    <string name="text_product_description">Product description</string>
+    <string name="text_product_price">Product price</string>
+    <string name="text_product_quantity">Product quantity</string>
+    <string name="text_product_barcode">Product barcode</string>
+    <string name="text_product_weight">Product weight</string>
+    <string name="text_staff_name">Staff name</string>
+    <string name="text_staff_position">Staff position</string>
+    <string name="text_staff_code_number">Staff code number</string>
+    <string name="text_staff_account_name">Staff account name</string>
+    <string name="text_sale_name">Sale name</string>
+    <string name="text_start_date">Start date</string>
+    <string name="text_end_date">End date</string>
+    <string name="text_sale_barcode">Sale barcode</string>
+    <string name="text_choose_image">Choose image</string>
+    <string name="text_active">Active</string>
+    <string name="text_edit_sale_details">Edit Sale Details</string>
+    <string name="text_category_name">Category Name</string>
+    <string name="text_enabled">Enabled</string>
+    <string name="text_edit_category">Edit Category</string>
+    <string name="text_save">Save</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_edit">Edit</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_add">Add</string>
+    <string name="text_category_management">Category Management</string>
+    <string name="text_product_management">Quản Lý Sản Phẩm</string>
+    <string name="text_client_management">Client Management</string>
+    <string name="text_staff_management">Staff Management</string>
+    <string name="text_sale_management">Sale Management</string>
+    <string name="text_product_image_url">Product Image URL</string>
+    <string name="text_product_category">Product category</string>
+    <string name="text_product_add">Product Add</string>
+    <string name="text_disabled">Disabled</string>
+    <string name="text_view_detail">View Detail</string>
+    <string name="text_sale_image_url">Sale Image URL</string>
+    <string name="text_sale_value">Sale Value (%)</string>
+    <string name="text_client_updated_successfully">Client updated successfully</string>
+    <string name="text_sale_updated_successfully">Sale updated successfully</string>
+    <string name="text_failed_to_update_client">Failed to update client</string>
+    <string name="text_failed_to_update_sale">Failed to update sale</string>
+    <string name="text_product_added_successfully">Product added successfully!</string>
+    <string name="text_error_adding_product">"Error adding product: "</string>
+    <string name="text_image_uploaded_successfully_id">"Image uploaded successfully! ID: "</string>
+    <string name="text_upload_failed">"Upload failed: "</string>
+    <string name="text_request_failed">"Request failed: "</string>
+    <string name="text_client_added_successfully">Client added successfully!</string>
+    <string name="text_error_adding_client">"Error adding client: "</string>
+    <string name="text_add_client">Add Client</string>
+    <string name="text_do_you_want_to_delete_the">"Do you want to delete the "</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+    <string name="text_add_new_staff">Add New Staff</string>
+    <string name="text_add_staff">Add Staff</string>
+    <string name="text_staff">staff</string>
+    <string name="text_sale">Sale</string>
+    <string name="text_categoryy">Category</string>
+    <string name="text_user">User</string>
+    <string name="text_order">Order</string>
+    <string name="text_add_new_order">Add New Order</string>
+    <string name="text_customer_phone">Customer phone</string>
+    <string name="text_customer_name">Customer name</string>
+    <string name="text_order_management">Order Management</string>
+    <string name="text_order_details">Order Details</string>
+    <string name="text_add_product">Add product</string>
+
+
+    <string-array name="position">
+        <item>Staff</item>
+        <item>Shipper</item>
+        <item>Cashier</item>
+        <item>Manager</item>
+    </string-array>
+
+    <string-array name="role">
+        <item>Manager</item>
+        <item>Admin</item>
+    </string-array>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="text_edit_order">Edit Order</string>
+    <string name="text_role">Role</string>
+    
+    <string name="cloud_name">dx9imbssh</string>
+    <string name="api_key">262813512613356</string>
+    <string name="api_secret">2uEQHVpA1Ct3ns42H2cXwopLX78</string>
+    <string name="api_environment_variable">CLOUDINARY_URL=cloudinary://262813512613356:2uEQHVpA1Ct3ns42H2cXwopLX78@dx9imbssh</string>
+
+</resources>

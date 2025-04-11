@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sale_nav"
+    app:startDestination="@id/saleDetailFragment">
+
+    <fragment
+        android:id="@+id/saleDetailFragment"
+        android:name="com.example.grocerymanagement.views.ui.home.sale.SaleDetailFragment"
+        android:label="SaleDetailFragment" >
+        <action
+            android:id="@+id/action_saleDetailFragment_to_saleEditFragment"
+            app:destination="@id/saleEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/saleEditFragment"
+        android:name="com.example.grocerymanagement.views.ui.home.sale.SaleEditFragment"
+        android:label="fragment_sale_edit"
+        tools:layout="@layout/fragment_sale_edit" />
+</navigation>
